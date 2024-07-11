@@ -7,6 +7,7 @@ import 'package:note_taking_app/Cubit/View%20Note/view_note_cubit.dart';
 import 'package:note_taking_app/const/const.dart';
 import 'package:note_taking_app/model/NoteModel.dart';
 
+// ignore: must_be_immutable
 class DeleteNotePage extends StatelessWidget {
   DeleteNotePage({super.key, this.index});
   int? index;
